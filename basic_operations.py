@@ -1,3 +1,7 @@
+"""This script performs basic arithmetic operations on two numbers."""
+
+# pylint: disable=invalid-name
+
 number1 = 10
 number2 = 5
 
