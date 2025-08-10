@@ -12,9 +12,10 @@ match priority:
     case _:
         message = f"'{task}' has an unknown priority level"
 
+
 if time_bound == "yes":
     message += " that requires immediate attention today!"
 else:
     message += ". Consider completing it when you have free time."
 
-print("\nReminder:", message)
+print(f"Reminder: {message}")
